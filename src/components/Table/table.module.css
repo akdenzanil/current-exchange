@@ -1,0 +1,30 @@
+.currencyArea{
+    margin:0 auto;
+}
+.currencyHeadingWrap{
+    background: linear-gradient(to right, #72ddf7, #a8dadc);
+    display: flex;
+    width: 70%;
+    margin : 0 auto;
+}
+.currencyHeading{
+    width: 33.3%;
+    padding:10px;
+    font-size:18px;
+}
+.currencyItemWrap{
+    display: flex;
+    flex-direction: column;
+    border:solid 2px #72ddf7;
+    width: 70%;
+    margin : 0 auto;
+}
+.currencyItems{ 
+    display: flex;
+    width: 100%; 
+}
+.currencyItem{
+    width: 33.3%;
+    padding:10px;
+    border-bottom:solid 1px rgba(255,255,255,0.1);
+}
